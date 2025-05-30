@@ -17,6 +17,7 @@ These lab sessions take some typical dynamic systems that we have learnt on the 
 = Lab 2 
 #include "lab2.typ"
 = Lab 3
+#include "lab3.typ"
 = Lab 4 
 #include "lab4.typ"
 = Conclusion 
