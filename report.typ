@@ -8,6 +8,7 @@ Dynamic and Control (UESTC 3001)
 #v(1cm)
 = UESTC ID: 2022190504031
 = GUID: 2839915H 
+= Name: HeWenXiao
 = Introduction
 Dynamic and control is the course that focuses on analyzing and designing dynamic system. A dynamic system is one which is in motion.
 Electronic circuits, motors and even airplanes are dynamic systems. 
@@ -21,3 +22,4 @@ These lab sessions take some typical dynamic systems that we have learnt on the 
 = Lab 4 
 #include "lab4.typ"
 = Conclusion 
+#include "Conclusion.typ"
