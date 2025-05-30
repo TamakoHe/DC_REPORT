@@ -30,7 +30,14 @@ The matlab's result has lower peak value.
 #figure(caption: [])[#image("2025-05-30-10-53-15.png")]
 == Analysis of polse and zeros of two methods' results
 The poles and zeros from the two methods are the same 
+== 12
+#figure(caption: [PZ plot])[#image("2025-05-30-23-12-53.png")]
+Because of the zero-pole cancellation, two zeros and two poles are missing.
 == 13
-// TODO
+#figure(caption: [PZ plot])[#image("2025-05-30-23-17-14.png")]
+The closed-loop system has two additional poles with the same real part but larger imaginary part than the open-loop system. This occurs because the denominator of the CLTF incorporates both the denominator and numerator of the system.
 == 14 
-// TODO 
+#figure(caption: [Closed-Loop unit step Response, c=0.08])[#image("2025-05-30-23-23-26.png")]
+If the poles are all pure-real, ther system is critically damped or 
+overdamped. Thus, poles should be none-real values. $b^2-4a c<0$, 
+$ c^2<(2 m g l+m l^2+4)/8 $
